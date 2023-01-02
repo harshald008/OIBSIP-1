@@ -1,0 +1,210 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bree Serif', serif;
+}
+
+/* SECTION FIRST */
+
+/* class one */
+.one {
+    background-image: url('https://cdn.wallpapersafari.com/46/98/z0oWaG.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45rem;
+}
+
+.bran {
+    height: 2rem;
+    width: 8rem;
+    margin: 1rem 0 0 7.5em;
+}
+
+.v {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.u {
+    margin-left: 13rem;
+    font-size: 1.7rem;
+}
+
+.info {
+    font-size: 4rem;
+    color: white;
+    margin: 10rem 11rem 0;
+    font-family: 'Merriweather', serif;
+}
+
+.info-p {
+    font-size: 1.5rem;
+    color: white;
+    margin: 3rem 11rem;
+    font-family: 'Merriweather', serif;
+    word-spacing: 0.2rem;
+}
+
+.nav-item {
+    word-spacing: 1rem;
+}
+
+.button1 {
+    margin-left: 11rem;
+    width: 15rem;
+    font-family: 'Merriweather', serif;
+}
+
+
+@media only screen and (max-width:1400px) {
+
+    .bran {
+        height: 1.5rem;
+        width: 5rem;
+    }
+
+    .one {
+        height: 23rem;
+        width: 35rem;
+    }
+
+    .info {
+        margin-top: 1.5rem;
+        margin-left: 30px;
+        font-size: 1.5rem;
+    }
+
+    .info-p {
+        margin-top: 1.8rem;
+        margin-left: 20px;
+        font-size: 0.5rem;
+    }
+
+    .reg {
+        height: 2.5rem;
+        width: 9rem;
+        padding-top: 0;
+        margin-top: 10px;
+    }
+
+    .log {
+        font-size: 1rem;
+    }
+
+    .button1 {
+        margin-left: 1rem;
+        width: 8rem;
+        font-size: 10px;
+        height: 2.5rem;
+    }
+
+    .shop {
+        font-size: 15px;
+        padding-bottom: 30px;
+    }
+}
+
+/* Section Second */
+
+.card {
+    margin-top: 7rem;
+    margin-left: 13rem;
+}
+
+.card1 {
+    margin-top: 7rem;
+    margin-left: 7rem;
+}
+
+.card2 {
+    margin-top: 7rem;
+    margin-left: 1rem;
+}
+
+.text {
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Section Third */
+
+.shoe1 {
+    height: 39rem;
+    width: 30rem;
+    margin: 10rem 0 0 13rem;
+    border-radius: 20px;
+}
+
+.shoe2 {
+    margin: 0 0 6rem 4rem;
+    border-radius: 20px;
+}
+
+.sport-head {
+    margin: 0 0 0 50rem;
+    position: absolute;
+    top: 113rem;
+    right: 22rem;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: bold;
+}
+
+.sport-para {
+    margin: 0 0 0 50rem;
+    position: absolute;
+    top: 117rem;
+    right: 17rem;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.shop-btn {
+    position: absolute;
+    top: 120rem;
+    right: 25rem;
+}
+
+/* footer */
+
+.footers{
+    margin-top: 5rem;
+}
+
+.footers a {
+    color: #696969;
+}
+
+.footers p {
+    color: #696969;
+}
+
+.footers-logo{
+    font-size: 20px;
+}
+
+.footers ul {
+    line-height: 30px;
+}
+
+#social-fb:hover {
+    color: #3B5998;
+    transition: all .001s;
+}
+
+#social-tw:hover {
+    color: #4099FF;
+    transition: all .001s;
+}
+
+#social-gp:hover {
+    color: #d34836;
+    transition: all .001s;
+}
+
+#social-em:hover {
+    color: #f39c12;
+    transition: all .001s;
+}
